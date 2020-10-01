@@ -2,10 +2,6 @@
 session_start();
  $username = $_POST['name'];
  $password = $_POST['pass']; 
- //$username=stripcslashes($username);
- //$password=stripcslashes($password);
-// $username=mysqli_real_escape_string($username);
- //$password=mysqli_real_escape_string($password);
 $c=mysqli_connect("localhost","root","","blogpostdb");
 if(!$c)
 {

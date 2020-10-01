@@ -48,7 +48,7 @@ if(isset($_POST["signup"]))
  {
     $message="You have successfully registered with Our BLOG!!!";
 	echo "<script type='text/javascript'>window.alert('$message');</script>";
-	//header("Location:otp.html");		
+
 
  }
  else
@@ -57,9 +57,6 @@ if(isset($_POST["signup"]))
  }
 
 
- //sql("INSERT INTO `membership_users` set memberID='$memberID', passMD5='".md5($password)."', email='$email', signupDate='""', groupID='$groupID', isBanned='0', isApproved='".($needsApproval==1 ? '0' : '1')."', custom1='$custom1', custom2='$custom2', custom3='$custom3', custom4='$custom4'");
-
-    // hook: member_activity
  
 }
 ?>
