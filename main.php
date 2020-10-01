@@ -177,7 +177,7 @@
         </div>
      </div>
      <br>
-    <center>  <h1>Fashion <i class="fa fa-female"></i></h1> </center>
+     <h1>Fashion <i class="fa fa-female"></i></h1>
      <section class="main-content-w3layouts-agileits">
 		<div class="container">
 			<div class="row">
@@ -299,8 +299,6 @@
 						});
 					</script>
 					<script src="css/jquery.flexisel.js"></script>
-					<!-- //password-script -->
-					<!--/ start-smoth-scrolling -->
 					<script src="css/move-top.js"></script>
 					<script src="css/easing.js"></script>
 					<script>

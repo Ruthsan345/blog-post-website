@@ -52,7 +52,7 @@ include('session.php');
             <!--h2 style="color:white;font-size:30px;">Scroll Down For More of Your Contents!!!</h2--> 
             </div>
         </div>
-              <center> <button onclick="location.href='#you'"  class="btn btn-dark btn-lg">  <span class="fa fa-arrow-down fa-lg"></span></button><center>     
+              <button onclick="location.href='#you'"  class="btn btn-dark btn-lg">  <span class="fa fa-arrow-down fa-lg"></span></button>     
     </header ><br>
     
      <div id="you" class="row row-content align-items-center">
@@ -64,7 +64,7 @@ include('session.php');
      </div>
         </div>
         <br>
-    <center>  <h1 >Your Published Blogs <i class="fa fa-book"></i></h1> </center>
+   <h1 >Your Published Blogs <i class="fa fa-book"></i></h1> 
     <section class="main-content-w3layouts-agileits">
 		<div class="container">
 			<div class="row">
@@ -79,7 +79,7 @@ include('session.php');
         </div>    
 </section>
 
-    <center>  <h1>Drafts <i class="fa fa-file"></i></h1> </center>
+     <h1>Drafts <i class="fa fa-file"></i></h1>
      <section class="main-content-w3layouts-agileits">
 		<div class="container">
 			<div class="row">
